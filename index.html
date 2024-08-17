@@ -6,18 +6,25 @@
     <title>1-page</title>
   </head>
   <body>
-    <div class="create Account">
-      <h3>create account</h3>
-      <input type="email" id="signup_email" placeholder="email" />
-      <input type="password" id="signup_password" placeholder="********" />
-      <button id="signup_btn">create</button>
+    <div id="auth_container">
+      <div class="create Account">
+        <h3>create account</h3>
+        <input type="email" id="signup_email" placeholder="email" />
+        <input type="password" id="signup_password" placeholder="********" />
+        <button id="signup_btn">create</button>
+      </div>
+
+      <div class="sin in">
+        <h3>log in</h3>
+        <input type="email" name="" id="signin_email" placeholder="email" />
+        <input type="password" id="signin_password" placeholder="********" />
+        <button id="signin_btn">Signin</button>
+      </div>
     </div>
 
-    <div class="sin in">
-      <h3>log in</h3>
-      <input type="email" name="" id="signin_email" placeholder="email" />
-      <input type="password" id="signin_password" placeholder="********" />
-      <button id="signin_btn">Signin</button>
+    <div id="user_container">
+      <h1 id="user_email"></h1>
+      <button id="logout_btn">Logout</button>
     </div>
     <script src="app.js" type="module"></script>
   </body>
